@@ -1,1 +1,7 @@
-# aotoparry
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("see  kaeng  ot", "LightTheme")
+local Tab = Window:NewTab("blade ball")
+local Section = Tab:NewSection("blade ball")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end)
